@@ -1,5 +1,7 @@
-body {
-    height: 1000px;
+img{
+  border-radius: 10%;
+  height: 170px;
+  width:125px;
 }
 
 #mainContainer {
@@ -8,22 +10,27 @@ body {
 }
 
 #abtMe {
+
+    border-radius: 2%;
     height: 60%;
     width: 45%;
     float: left;
-    background-color: blue;
+    background-color: #FFFEEB;
 }
 
 #imgContainer {
     float: left;
-    background-color: red;
-    width: 30%;
+    
+    width: 25%;
 }
 
 #textArea {
+
+
     /*wrap around image area*/
   
-    background-color: green;
+ height:400px;
+ margin-bottom: 200px;
     width: 100%;
 }
 
@@ -78,8 +85,7 @@ width: 45%;
  height: 100%;
 }
 
-.thumbnail:after {
-  content: "";
+.thumbnail::after {
   display: block;
   position: absolute;
   top: 0;
