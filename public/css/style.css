@@ -3,6 +3,7 @@ body {
 }
 
 #mainContainer {
+  background-color: teal;
     height: 100%;
 }
 
