@@ -1,0 +1,88 @@
+body {
+    height: 1000px;
+}
+
+#mainContainer {
+    height: 100%;
+}
+
+#abtMe {
+    height: 60%;
+    width: 45%;
+    float: left;
+    background-color: blue;
+}
+
+#imgContainer {
+    float: left;
+    background-color: red;
+    width: 30%;
+}
+
+#textArea {
+    /*wrap around image area*/
+  
+    background-color: green;
+    width: 100%;
+}
+
+
+
+#projectCont,
+#projectCont1,
+#projectCont2 {
+    float: right;
+    width: 50%;
+    height: 20%;
+ 
+    padding-bottom: 1%;
+}
+
+#preview {
+	background-color: green;
+	float:left;
+	width: 45%;
+	height: 100%;
+
+}
+
+#dropdown {
+	float:right;
+	background-color: black;
+	width: 45%;
+	height: 100%;
+}
+#preview1{
+	
+float:right;
+width: 45%;
+	height: 100%;
+}
+#dropdown1{
+	padding-left: 16%;
+
+	float:left;
+	width: 45%;
+	height: 100%;
+}
+
+.thumbnail iframe {
+  width: 100%;
+ height: 100%;
+}
+
+.thumbnail {
+  
+ width: 100%;
+ height: 100%;
+}
+
+.thumbnail:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
