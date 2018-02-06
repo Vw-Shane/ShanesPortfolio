@@ -4,24 +4,29 @@ img{
   width:125px;
 }
 
+nav{
+  background-color:#E6F9FF;
+}
+
 #mainContainer {
-  background-color: teal;
+  
     height: 100%;
 }
 
 #abtMe {
-
+ 
     border-radius: 2%;
     height: 60%;
     width: 45%;
     float: left;
-    background-color: #FFFEEB;
+    background-color: #CCF2FF;
 }
 
 #imgContainer {
+  padding-top: 1%;
     float: left;
-    margin-right: 2%;
-    margin-bottom: 2%;
+    margin-right: 3%;
+    margin-bottom: 1%;
     width: 25%;
 }
 
@@ -47,8 +52,12 @@ img{
     padding-bottom: 1%;
 }
 
-#preview {
-	background-color: green;
+#preview,
+#preview2 {
+  border-radius: 5%; 
+  padding-top: 2%;
+  overflow:hidden;
+  background-color:#E6F9FF;
 	float:left;
 	width: 45%;
 	height: 100%;
@@ -57,15 +66,17 @@ img{
 
 #dropdown {
 	float:right;
-	background-color: black;
 	width: 45%;
 	height: 100%;
 }
-#preview1{
-	
-float:right;
-width: 45%;
-	height: 100%;
+#preview1{	
+ border-radius: 5%; 
+  padding-top: 2%;
+  overflow:hidden;
+  background-color:#E6F9FF;
+  float:right;
+  width: 45%;
+  height: 100%;
 }
 #dropdown1{
 	padding-left: 16%;
@@ -76,17 +87,19 @@ width: 45%;
 }
 
 .thumbnail iframe {
+
   width: 100%;
  height: 100%;
 }
 
 .thumbnail {
-  
+
  width: 100%;
  height: 100%;
 }
 
 .thumbnail::after {
+   
   display: block;
   position: absolute;
   top: 0;

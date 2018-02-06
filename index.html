@@ -8,13 +8,14 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="shortcut icon" type="image/png" href="images/s.png">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script type="text/javascript" src="javascript/app.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
 </head>
 
-<body style="background-color: #FFF2D4; font-family: 'Josefin Sans', sans-serif;
+<body style="background-color: #137B9E; font-family: 'Josefin Sans', sans-serif;
 ">
     <nav class="navbar navbar-default">
         <div class="container-fluid">
@@ -38,18 +39,25 @@
                 <img src="images/shane.jpg">
             </div>
             <div class="container" id="textArea">
-            	<br><br>
+                <br>
+                <br>
                 <p>
                     Im Shane Orend a web developer currently working on learning React via Stephen Grider’s udemy course. I enjoy working with mainly front end technologies such as Html5’s canvas, and Bootstrap. I’m proficient in javascript, css and html, and have a strong working knowledge of jQuery, ajax and node.js. I recently completed my coding bootcamp with Trilogy Education at UCF and am excited to start a career in web development as well begin working on freelance projects. The following links are some of the projects I’ve worked on since I began coding last year. This is a living portfolio in the sense that as my skills grow and my projects get more extensive I will change out what I feature here.</p>
-                    <p> Enjoy and feel free to contact me if your interested in hiring me for a project or a position at your company.
+                <p> Enjoy and feel free to contact me if your interested in hiring me for a project or a position at your company.
                 </p>
             </div>
         </div>
-        <div class="container" id="projectCont2">
+        <div class="container" id="projectCont">
             <div class="container" id="preview">
                 <div class="thumbnail">
                     <iframe src="https://hiccupthegame.herokuapp.com/game" frameborder="0"></iframe>
                 </div>
+                <script type="text/javascript">
+                $("#preview").click(function() {
+                    window.location = "https://hiccupthegame.herokuapp.com/";
+                });
+                </script>
+                <h6>Click to Check out</h6>
             </div>
             <div class="btn-group" role="group" aria-label="..." id="dropdown">
                 <div class="btn-group" role="group">
@@ -67,25 +75,37 @@
             <div class="btn-group" role="group" aria-label="..." id="dropdown1">
                 <div class="btn-group" role="group">
                     <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        About Hiccup the Game
+                        About Giftasic
                         <span class="caret"></span>
                     </button>
                     <p class="dropdown-menu">
-                        &nbsp;About the following
+                        &nbsp;The first time I used any api was this one. Using the giphy api you can search for gifs of characters from the tv show The Office.
                     </p>
                 </div>
             </div>
             <div class="container" id="preview1">
                 <div class="thumbnail">
-                    <iframe src="https://github.com/Vw-Shane/ShanesEcommerceSite" frameborder="0"></iframe>
+                    <iframe src="https://vw-shane.github.io/GifTastic/" frameborder="0"></iframe>
+                    <script type="text/javascript">
+                    $("#preview1").click(function() {
+                        window.location = "https://vw-shane.github.io/GifTastic/";
+                    });
+                    </script>
                 </div>
+                <h6>Click to Check out</h6>
             </div>
         </div>
         <div class="container" id="projectCont2">
-            <div class="container" id="preview">
+            <div class="container" id="preview2">
                 <div class="thumbnail">
                     <iframe src="https://cryptochat-live.herokuapp.com/social/home" frameborder="0"></iframe>
                 </div>
+                 <script type="text/javascript">
+                $("#preview2").click(function() {
+                    window.location = "https://cryptochat-live.herokuapp.com/social/home";
+                });
+                </script>
+                <h6>Click to Check out</h6>
             </div>
             <div class="btn-group" role="group" aria-label="..." id="dropdown">
                 <div class="btn-group" role="group">
@@ -94,7 +114,7 @@
                         <span class="caret"></span>
                     </button>
                     <h6 class="dropdown-menu">
-                        &nbsp;Crypto Chat was my second group project in my coding bootcamp. My role in this project was to code the wireframe the groups leader had thought up and designed most of style and layout was pretty determined but I got it from paper to screen. This website is for people familiar and unfamiliar with cryptocurrency to communicate and view trends. </h6>
+                        &nbsp;Crypto Chat was my second group project in my coding bootcamp. My role in this project was to code the wireframe the groups leader had thought up and designed I got the site from paper to screen in about one weeks time. This website is for people familiar and unfamiliar with cryptocurrency to communicate and view trends. </h6>
                 </div>
             </div>
         </div>
