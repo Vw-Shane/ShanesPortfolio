@@ -63,7 +63,8 @@ nav {
     background-color: #E6F9FF;
     float: left;
     width: 45%;
-    height: 100%;
+    height: 110%;
+
 }
 
 #dropdown {
@@ -79,7 +80,7 @@ nav {
     background-color: #E6F9FF;
     float: right;
     width: 45%;
-    height: 100%;
+    height: 110%;
 }
 
 #dropdown1 {
@@ -99,7 +100,7 @@ nav {
 .thumbnail {
 
     width: 100%;
-    height: 100%;
+    height: 80%;
 }
 
 .thumbnail::after {
@@ -114,9 +115,9 @@ nav {
 
 @media only screen and (max-width: 569px) {
 
-    /* For mobile phones: */
+    
     nav {
-        width: 100%;
+        width: 120%;
     }  
     img {
         border-radius: 1%;
@@ -154,48 +155,59 @@ nav {
         width: 100%;
     }
 #projectHouse{
-  width: 110%; float: left; height: 800px;
+  
+  width: 560px; float: left; height: 800px;
 }
     #projectCont,
     #projectCont1,
     #projectCont2 {
         float: left;
-        width: 90%;
+        width: 540px;
         height: 25%;
- 
+        margin-top: 10%;
         padding-bottom: 5%;
     }
 
     #preview,
     #preview2 {
-        border-radius: 5%;
+        border-radius: 2%;
         padding-top: 2%;
-     
+        position: relative;
+        right:20px;
         background-color: #E6F9FF;
         float: left;
-        width: 45%;
-        height: 100%;
+        width: 60%;
+        height: 110%;
+
     }
 
     #dropdown {
+      position: relative;
+      right:25px;
         float: right;
-        width: 45%;
-        height: 100%;
+        width: 30%;
+        height: 20%;
     }
+
     #preview1 {
         border-radius: 5%;
         padding-top: 2%;
         overflow: hidden;
         background-color: #E6F9FF;
         float: right;
-        width: 45%;
-        height: 100%;
+        width: 60%;
+        height: 110%;
+        position: relative;
+        left:8px;
     }
-    #dropdown1 {
-        padding-left: 16%;
 
-        float: left;
-        width: 45%;
-        height: 100%;
+    #dropdown1 {
+
+      position: relative;
+      right:100px;
+       
+       
+        width: 30%;
+        height: 20%;
     }
 }
