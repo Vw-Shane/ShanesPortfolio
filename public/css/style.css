@@ -121,11 +121,11 @@ nav {
     }  
     img {
         border-radius: 1%;
-        height: 25%;
-        width: 25%;
+        height: 55%;
+        width: 55%;
     }
     #mainContainer {
-        width: 568px;
+        width: 120%;
         height: 100%;
     }
 
@@ -141,7 +141,7 @@ nav {
     #imgContainer {
         padding-top: 1%;
         float: left;
-        margin-right: 3%;
+       
         margin-bottom: 1%;
         width: 25%;
     }
