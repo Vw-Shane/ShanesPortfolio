@@ -1,5 +1,5 @@
 img{
-  border-radius: 10%;
+  border-radius: 1%;
   height: 170px;
   width:125px;
 }
@@ -20,7 +20,7 @@ img{
 
 #imgContainer {
     float: left;
-    
+    padding-right: 2%;
     width: 25%;
 }
 
