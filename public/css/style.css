@@ -31,6 +31,11 @@ nav {
     width: 25%;
 }
 
+#projectHouse{
+  width: 50%; float: right; height: 800px;
+}
+
+
 #textArea {
 
 
@@ -148,14 +153,16 @@ nav {
         margin-bottom: 200px;
         width: 100%;
     }
-
+#projectHouse{
+  width: 110%; float: left; height: 800px;
+}
     #projectCont,
     #projectCont1,
     #projectCont2 {
         float: left;
         width: 90%;
         height: 25%;
-  background-color: red;
+ 
         padding-bottom: 5%;
     }
 
