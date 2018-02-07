@@ -113,8 +113,9 @@ nav {
     right: 0;
     bottom: 0;
 }
-@media only screen and (max-width: 320px) {
-  
+
+@media only screen and (max-width: 568px) {
+
 
     nav {
         width: 120%;
@@ -126,13 +127,13 @@ nav {
     }
     #mainContainer {
         width: 110%;
-        height: 8000px;
+        height: 100%;
     }
 
     #abtMe {
 
         border-radius: 2%;
-        height: 800px;
+        height: 340px;
         margin-left: 2%;
         width: 100%;
     }
@@ -148,9 +149,9 @@ nav {
 
     #textArea {
 
-      height: 600px;
+
         /*wrap around image area*/
-        margin-bottom: 100px;
+        margin-bottom: 200px;
         width: 100%;
     }
     #projectHouse {
@@ -246,8 +247,9 @@ nav {
         bottom: 0;
     }
 }
-@media only screen and (max-width: 568px) {
 
+@media only screen and (max-width: 320px) {
+  
 
     nav {
         width: 120%;
@@ -259,13 +261,13 @@ nav {
     }
     #mainContainer {
         width: 110%;
-        height: 100%;
+        height: 8000px;
     }
 
     #abtMe {
 
         border-radius: 2%;
-        height: 340px;
+        height: 800px;
         margin-left: 2%;
         width: 100%;
     }
@@ -281,9 +283,9 @@ nav {
 
     #textArea {
 
-
+      height: 600px;
         /*wrap around image area*/
-        margin-bottom: 200px;
+        margin-bottom: 100px;
         width: 100%;
     }
     #projectHouse {
