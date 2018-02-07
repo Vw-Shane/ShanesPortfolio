@@ -234,7 +234,7 @@ nav {
     .thumbnail {
 
         width: 100%;
-        height: 50%;
+        height: 20%;
     }
 
     .thumbnail::after {
