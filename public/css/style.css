@@ -261,13 +261,13 @@ nav {
     }
     #mainContainer {
         width: 110%;
-        height: 8000px;
+        height: 1500px;
     }
 
     #abtMe {
-
+        
         border-radius: 2%;
-        height: 800px;
+        height: 550px;
         margin-left: 2%;
         width: 100%;
     }
@@ -277,15 +277,14 @@ nav {
         float: left;
 
         margin-bottom: 1%;
-        width: 15%;
+        width: 50%;
         height: 30%;
     }
 
     #textArea {
-
-      height: 600px;
+      height: 90%;
         /*wrap around image area*/
-        margin-bottom: 100px;
+        
         width: 100%;
     }
     #projectHouse {
