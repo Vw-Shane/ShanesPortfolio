@@ -11,7 +11,7 @@ nav {
 
 #mainContainer {
 
-    height: 8000px;
+    height: 100%;
 }
 
 #abtMe {
@@ -126,13 +126,13 @@ nav {
     }
     #mainContainer {
         width: 110%;
-        height: 100%;
+        height: 8000px;
     }
 
     #abtMe {
 
         border-radius: 2%;
-        height: 8000px;
+        height: 800px;
         margin-left: 2%;
         width: 100%;
     }
