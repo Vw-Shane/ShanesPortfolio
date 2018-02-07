@@ -228,13 +228,13 @@ nav {
     .thumbnail iframe {
 
         width: 100%;
-        height: 100%;
+        height: 70%;
     }
 
     .thumbnail {
 
         width: 100%;
-        height: 20%;
+        height: 80%;
     }
 
     .thumbnail::after {
