@@ -155,14 +155,15 @@ nav {
         width: 100%;
     }
     #projectHouse {
-      background-color: black;
+      
         width: 110%;
         float: left;
-        height: 120%;
+        height: 1000px;
     }
     #projectCont,
     #projectCont1,
     #projectCont2 {
+      
         float: left;
         width: 99%;
         height: 25%;
@@ -177,7 +178,7 @@ nav {
         padding-top: 2%;
         position: relative;
         right: 20px;
-        background-color: #E6F9FF;
+       background-color: #E6F9FF;
         float: left;
         width: 60%;
         height: 110%;
@@ -227,13 +228,13 @@ nav {
     .thumbnail iframe {
 
         width: 100%;
-        height: 50%;
+        height: 100%;
     }
 
     .thumbnail {
 
         width: 100%;
-        height: 50%;
+        height: 80%;
     }
 
     .thumbnail::after {
