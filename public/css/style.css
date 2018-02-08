@@ -114,7 +114,7 @@ nav {
     bottom: 0;
 }
 
-@media only screen and (max-width: 568px) {
+@media only screen and (max-width: 736px) {
 
 
     nav {
@@ -248,7 +248,7 @@ nav {
     }
 }
 
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 414px) {
 
 
     nav {
@@ -277,7 +277,7 @@ nav {
         float: left;
 
         margin-bottom: 1%;
-        width: 50%;
+        width: 40%;
         height: 30%;
     }
 
