@@ -113,6 +113,141 @@ nav {
     right: 0;
     bottom: 0;
 }
+@media only screen and (max-width: 768px) {
+
+
+    nav {
+        width: 120%;
+    }
+    img {
+        border-radius: 1%;
+        height: 100%;
+        width: 100%;
+    }
+    #mainContainer {
+        width: 110%;
+        height: 100%;
+    }
+
+    #abtMe {
+
+        border-radius: 2%;
+        height: 340px;
+        margin-left: 2%;
+        width: 100%;
+    }
+
+    #imgContainer {
+        margin-top: 1%;
+        float: left;
+
+        margin-bottom: 1%;
+        width: 15%;
+        height: 30%;
+    }
+
+    #textArea {
+
+
+        /*wrap around image area*/
+        margin-bottom: 200px;
+        width: 100%;
+    }
+    #projectHouse {
+
+        width: 110%;
+        float: left;
+        height: 1000px;
+    }
+    #projectCont,
+    #projectCont1,
+    #projectCont2 {
+
+        float: left;
+        width: 99%;
+        height: 25%;
+        margin-top: 10%;
+        padding-bottom: 5%;
+        overflow: hidden;
+    }
+
+    #preview {
+        overflow: hidden;
+        border-radius: 2%;
+        padding-top: 2%;
+        position: relative;
+        right: 20px;
+        background-color: #E6F9FF;
+        float: left;
+        width: 60%;
+        height: 110%;
+    }
+    #preview2 {
+        overflow: hidden;
+        border-radius: 2%;
+        padding-top: 2%;
+        position: relative;
+        right: 20px;
+        background-color: #E6F9FF;
+        float: left;
+        width: 60%;
+        height: 110%;
+    }
+    #dropdown {
+        position: relative;
+        right: 25px;
+        float: right;
+        width: 30%;
+        height: 20%;
+    }
+
+    #preview1 {
+        border-radius: 5%;
+        padding-top: 2%;
+        overflow: hidden;
+        background-color: #E6F9FF;
+        float: right;
+        width: 60%;
+        height: 110%;
+        position: relative;
+        left: 8px;
+    }
+
+    #dropdown1 {
+
+        position: relative;
+        right: 100px;
+
+
+        width: 30%;
+        height: 20%;
+    }
+
+
+    .thumbnail iframe {
+
+        width: 100%;
+        height: 100%;
+    }
+
+    .thumbnail {
+
+        width: 100%;
+        height: 80%;
+    }
+
+    .thumbnail::after {
+
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+    }
+}
+
+
 
 @media only screen and (max-width: 736px) {
 
