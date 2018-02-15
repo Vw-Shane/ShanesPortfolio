@@ -1,0 +1,139 @@
+@media screen and (max-width: 320px) {
+    body {
+        background-color: black;
+    }
+    #navBBar {
+        background-color: #202021;
+    }
+    #carouselExampleIndicators {
+        margin: 0 auto;
+        width: 95%;
+    }
+    #main {
+        margin-top: 5%;
+
+        width: 100%;
+        background-color: black;
+    }
+
+    #featured {
+     font-size: 5px;
+        color: white;
+    }
+
+    #photoContainer {
+        overflow-x: scroll;
+        height: 568px;
+        margin-top: 1%;
+        width: 100%;
+        background-color: red;
+    }
+
+    #photoContent {
+        margin-bottom: 2%;
+       	height: 145px;
+        background-color: green;
+        font-size: 20px;
+    }
+
+    img {
+        height: 98%;
+        width: 100%;
+    }
+
+
+
+
+
+
+
+
+    .footer {
+        margin-top: 5%;
+        background: black;
+        padding: 10px 0;
+    }
+    .footer a {
+        color: #70726F;
+        font-size: 20px;
+        padding: 10px;
+        border-right: 1px solid #70726F;
+        transition: all .5s ease;
+    }
+    .footer a:first-child {
+        border-left: 1px solid #70726F;
+    }
+    .footer a:hover {
+        color: blue;
+    }
+}
+
+
+body {
+        background-color: black;
+    }
+    #navBBar {
+        background-color: #202021;
+    }
+    #carouselExampleIndicators {
+        margin: 0 auto;
+        width: 95%;
+    }
+    #main {
+        margin-top: 5%;
+
+        width: 100%;
+        background-color: black;
+    }
+
+    #featured {
+        font-size: 30px;
+        color: white;
+    }
+
+    #photoContainer {
+        
+        margin-top: 1%;
+        width: 100%;
+        background-color: blue;
+    }
+
+    #photoContent {
+        margin-bottom: 2%;
+        width: 100%;
+        background-color: green;
+        font-size: 20px;
+    }
+
+    img {
+        height: 100%;
+        width: 100%;
+    }
+
+
+
+
+
+
+
+
+    .footer {
+        margin-top: 5%;
+        background: black;
+        padding: 10px 0;
+    }
+    .footer a {
+        color: #70726F;
+        font-size: 20px;
+        padding: 10px;
+        border-right: 1px solid #70726F;
+        transition: all .5s ease;
+    }
+    .footer a:first-child {
+        border-left: 1px solid #70726F;
+    }
+    .footer a:hover {
+        color: blue;
+    }
+
+/**/
