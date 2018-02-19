@@ -43,13 +43,13 @@
 
 
     .f1_container {
-    position: relative;
-    margin: 10px;
-    width: 305px;
-    height: 229px;
-    z-index: 1;
-    float: left;
-}
+        position: relative;
+        margin: 10px;
+        width: 305px;
+        height: 229px;
+        z-index: 1;
+        float: left;
+    }
     .f1_container {
         -webkit-perspective: 1000;
         perspective: 1000;
@@ -136,14 +136,17 @@ body {
 }
 
 #photoContainer {
-position: relative;
-right:10px;
-    background-color: teal;
-    margin-top: 1%;
+    position: relative;
+    right: 15px;
+    
+    margin-top: 2%;
     width: 101%;
     /*background-color: blue;*/
 }
+
+
 /*this will be trasfered to back of card??*/
+
 #photoContent {
     margin-bottom: 2%;
     width: 100%;
@@ -159,7 +162,7 @@ img {
 
 .f1_container {
     position: relative;
-    margin: 10px;
+    
     width: 305px;
     height: 229px;
     z-index: 1;
@@ -227,6 +230,7 @@ img {
 .footer a:hover {
     color: blue;
 }
+
 
 
 /*
