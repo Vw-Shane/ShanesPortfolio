@@ -5,4 +5,7 @@ $(document).ready(function() {
         wrap: true,
         // transitin_duration: 5000
     })
+    $('.f1_container').click(function() {
+        $(this).toggleClass('active');
+    });
 });
