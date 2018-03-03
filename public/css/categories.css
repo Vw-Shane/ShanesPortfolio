@@ -95,8 +95,13 @@
         transform: rotateY(180deg);
         box-sizing: border-box;
         color: white;
+        border: 5px solid #82E0FF;
+        border-radius: 5px;
         text-align: center;
-        background-color: #aaa;
+        background-color: black;
+        /*previous filled background
+        background color:#82E0FF;
+        border:5px solid #008CBA;*/
     }
 
     table {}
@@ -141,7 +146,7 @@
     }
     #main {
         margin-top: 5%;
-     
+
         width: 100%;
         background-color: black;
     }
@@ -162,7 +167,7 @@
     #photoContent {
         margin-bottom: 2%;
         height: 145px;
-      /*    background-color: green;*/
+        /*    background-color: green;*/
         font-size: 20px;
     }
 
@@ -179,7 +184,7 @@
         height: 229px;
         z-index: 1;
         float: left;
-         overflow-x: hidden;
+        overflow-x: hidden;
     }
     .f1_container {
         -webkit-perspective: 1000;
@@ -241,5 +246,5 @@
 }
 
 
-/*not mobile below*/
 
+/*not mobile below*/
