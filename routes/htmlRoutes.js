@@ -10,4 +10,8 @@ module.exports = function(app) {
 		app.get("/cat", function(req,res){
 			res.sendFile(path.join(__dirname,"../pages/categories.html"));
 		});
+		app.get("/landing", function(req,res){
+			res.sendFile(path.join(__dirname,"../pages/landingPage.html"));
+		});
+		
 	};
