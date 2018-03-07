@@ -27,28 +27,36 @@
 
 <body>
     <div class="container">
+    	<div class="container-fluid" style="color:#E8FAFA;">
+    		<h2>Welcome to Shane's Portfolio below are
+    	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;links to my most recent projects.</h2>
+    	</div>
         <div class="row buttonRow">
             <div class="col s5 pull-m1" id="left">
-                <div class="container z-depth-5">
-                    <a href="/" style="color: white;">Web Dev Portfolio</a>
-                </div>
+                <a href="/webdev" style="color: white;">
+                    <div class="container z-depth-5 hoverable">
+                        Web Dev Portfolio
+                    </div>
+                </a>
             </div>
             <div class="col s5 push-s2" id="right">
-                <div class="container z-depth-5">
-                    <a href="/photo" style="color: white;">Photograhy Portfolio</a>
-                </div>
+                <a href="/photo" style="color: white;">
+                    <div class="container z-depth-5 hoverable">
+                        Photograhy Portfolio
+                    </div>
+                </a>
             </div>
         </div>
     </div>
     <footer class="page-footer">
         <div class="container">
-            ©Shane Orend Web Developer 
+            ©Shane Orend Web Developer
         </div>
     </footer>
 </body>
-
 <script type="text/javascript">
 $(document).ready(function() {
+	$(".container-fluid").addClass('animated fadeInDown');
     $("#left").addClass('animated bounceInLeft');
     $("#right").addClass('animated bounceInRight');
     $("#left").on("click", function(event) {

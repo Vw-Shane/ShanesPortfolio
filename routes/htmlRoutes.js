@@ -4,6 +4,9 @@ module.exports = function(app) {
 		app.get("/", function(req,res){
 			res.sendFile(path.join(__dirname,"../index.html"));
 		});
+		app.get("/webdev", function(req,res){
+			res.sendFile(path.join(__dirname,"../index.html"));
+		});
 		app.get("/photo", function (req,res) {
 			res.sendFile(path.join(__dirname,"../pages/photo.html"));
 		});
