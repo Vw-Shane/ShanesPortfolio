@@ -4,6 +4,8 @@
 <head>
     <meta charset="utf-8">
     <title>SOPhoto</title>
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/landingPage.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
     <link rel="shortcut icon" type="image/png" href="images/s.png">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -25,15 +27,15 @@
 
 <body>
     <div class="container">
-        <div class="row">
-            <div class="col s5 pull-s2" id="left">
+        <div class="row buttonRow">
+            <div class="col s5 pull-s1" id="left">
                 <div class="container z-depth-5">
-                    <a href="/">Web Dev Portfolio</a>
+                    <a href="/" style="color: white;">Web Dev Portfolio</a>
                 </div>
             </div>
             <div class="col s5 push-s2" id="right">
                 <div class="container z-depth-5">
-                    <a href="/photo">Photograhy Portfolio</a>
+                    <a href="/photo" style="color: white;">Photograhy Portfolio</a>
                 </div>
             </div>
         </div>
@@ -44,38 +46,7 @@
         </div>
     </footer>
 </body>
-<style type="text/css">
-.page-footer{
-	background-color:#00AADB;
-	text-align: center;
-	width: 100%;
-	position: absolute;
-	bottom: 0;
-}
-body {
-    background-color: #00AADB;
-}
 
-a {
-    color: white;
-}
-
-.z-depth-5 {
-    border-radius: 10px;
-    margin-top: 33%;
-    font-size: 33px;
-    padding-top: 5%;
-    padding-left: 10%;
-    height: 80%;
-    width: 100%;
-    background-color: #5C1756;
-}
-
-#left #right {
-    -webkit-animation-duration: 1s;
-    -webkit-animation-iteration-count: 1;
-}
-</style>
 <script type="text/javascript">
 $(document).ready(function() {
     $("#left").addClass('animated bounceInLeft');

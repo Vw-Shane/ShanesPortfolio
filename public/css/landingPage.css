@@ -1,0 +1,39 @@
+.page-footer {
+    background-color: #00AADB;
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+
+body {
+    background-color: #00AADB;
+}
+
+.buttonRow{
+    margin-top: 20%;
+
+}
+
+a {
+    color: white;
+}
+
+#left{
+    margin-left: 
+}
+.z-depth-5 {
+    border-radius: 10px;
+    margin-top: 33%;
+    font-size: 33px;
+    padding-top: 5%;
+    padding-left: 10%;
+    height: 80%;
+    width: 100%;
+    background-color: #5C1756;
+}
+
+#left #right {
+    -webkit-animation-duration: 1s;
+    -webkit-animation-iteration-count: 1;
+}
