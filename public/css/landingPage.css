@@ -44,6 +44,9 @@ a {
        font-size: 20px; 
        padding:10%;
    }
+   #right{
+    margin-left: 10%;
+   }
    .buttonRow{
     margin-top: 1%;
 
