@@ -4,27 +4,22 @@ canvasBackground = "#C9EEF3";
 
 var keysDown = {};
 // Create a new image object
-var playerSim = new Image();
-var playerFlip = new Image();
-var enemy = new Image();
-var enemyFip = new Image();
-var coin = new Image();
-var hearts = new Image();
-var fireBall = new Image();
-var flagg = new Image();
-var flagF = new Image();
+var alien = new Image();
+var fish = new Image();
+var rat = new Image();
+var table = new Image();
+var jar = new Image();
+var bubble = new Image();
+
 
 // Set the image source and start loading
-playerFlip.src = '../assets/pics/KirraClipartFlip.png'
-playerSim.src = '../assets/pics/KirraClipart.png';
-enemy.src = '../assets/pics/lobster.png';
-enemyFip.src = '../assets/pics/lobsterFlip.png';
-coin.src = '../assets/pics/coin.png';
-hearts.src = '../assets/pics/heart8Bit.png';
-fireBall.src = '../assets/pics/fireball.png';
-flagg.src = '../assets/pics/flag.png';
-flagF.src = '../assets/pics/flagflip.png';
-// hearts.src'../assets/pics/heart8Bit.png';
+alien.src = 'images/404monster.png'
+fish.src = 'images/404Lab.png'
+rat.src = 'images/labRat.png'
+table.src = 'images/table.png'
+jar.src = 'images/jar.png'
+bubble.src = 'images/bubble.png'
+
 
 
 window.onload = function() {
@@ -99,8 +94,12 @@ function drawEverything() {
     
 
 
-
-    // canvasContext.drawImage(flagg,flag.leftXG - 50, flag.topYG,flag.width,flag.height);
+    canvasContext.drawImage(bubble,75, 200,250,250);
+    canvasContext.drawImage(alien,50, 400,150,150);
+    canvasContext.drawImage(table,650, 275,450,250);
+    canvasContext.drawImage(fish,850, 160,250,150);
+    canvasContext.drawImage(rat,700, 220,75,75);
+    canvasContext.drawImage(jar,680, 150,150,150);
     // canvasContext.drawImage(flagF,flagFF.leftX, flagFF.topY,flag.width,flag.height);
 
     // canvasContext.drawImage(playerSim, player.postionX - 50, player.postionY, player.height, player.width);
