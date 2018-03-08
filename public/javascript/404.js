@@ -10,7 +10,7 @@ var rat = new Image();
 var table = new Image();
 var jar = new Image();
 var bubble = new Image();
-
+ var alienP = 50;
 
 // Set the image source and start loading
 alien.src = 'images/404monster.png'
@@ -32,6 +32,7 @@ window.onload = function() {
     var framesPerSecond = 60;
     setInterval(function() {
         drawEverything();
+        moveBrick();
         // moveEverything();
     }, 1000 / framesPerSecond);
 };
@@ -44,27 +45,23 @@ window.onload = function() {
 // }
 
 
-//all you need now is the function with the inputs 
-function moveEnemy(rowL, rowR) {
-    // console.log(firstRowRight.leftX);
-    if (enimies.postionX + enimiesMove.postionX > rowR || enimies.postionX + enimiesMove.postionX < rowL) {
-        enimiesMove.postionX = -enimiesMove.postionX;
-    };
-    enimies.postionX += enimiesMove.postionX;
 
+
+var brickChange = 3;
+
+function moveBrick() {
+    if (alienP+5<695) {
+        alienP += brickChange;
+    }
+    // if (alienP - 5 > 675 ||
+    //     alienP + 5 < 0) {
+    //     alienP = -brickChange;
+    // };
+    // alienP += brickChange;
+    // if (alienP === 675) {
+    //     alienP = 675;
+    // }
 }
-
-// var brickChange = 3;
-
-// function moveBrick() {
-
-//     if (secondRowleft.leftX2 - 5 > 1200 ||
-//         secondRowleft.leftX2 + 5 < 0) {
-//         secondRowleft.leftX2 = -brickChange;
-//     };
-//     secondRowleft.leftX2 += brickChange;
-
-// }
 
 
 
@@ -88,18 +85,12 @@ function colorCircle(centerX, centerY, radius, drawColor, tag) {
 function drawEverything() {
     //the following is the drawing of everything on screen
     colorRect(0, 0, canvas.width, canvas.height, canvasBackground, "Main");
-
-    
-
-    
-
-
-    canvasContext.drawImage(bubble,75, 200,250,250);
-    canvasContext.drawImage(alien,50, 400,150,150);
     canvasContext.drawImage(table,650, 275,450,250);
     canvasContext.drawImage(fish,850, 160,250,150);
     canvasContext.drawImage(rat,700, 220,75,75);
     canvasContext.drawImage(jar,680, 150,150,150);
+    canvasContext.drawImage(bubble,alienP+25, 200,250,250);
+    canvasContext.drawImage(alien,alienP, 400,150,150);
     // canvasContext.drawImage(flagF,flagFF.leftX, flagFF.topY,flag.width,flag.height);
 
     // canvasContext.drawImage(playerSim, player.postionX - 50, player.postionY, player.height, player.width);
