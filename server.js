@@ -1,8 +1,10 @@
 var express = require("express");
 var bodyParser = require("body-parser");
 var app = express();
-
-
+var mongojs = require("mongojs"); 
+var databaseUrl = "photodb";
+var collections = ["inventory"];
+var db = mongojs(databaseUrl, collections);
 
 const PORT = process.env.PORT || 3000;
 app.use(express.static(__dirname + "/public"));
@@ -20,6 +22,10 @@ app.use((req, res, next) => {
 //subject to change
 require("./routes/htmlRoutes")(app);
 // require("./routes/apiRoutes")(app);
+db.on("error", function(error) {
+  console.log("Database Error:", error);
+});
+
 
 
 app.listen(PORT, function() {
