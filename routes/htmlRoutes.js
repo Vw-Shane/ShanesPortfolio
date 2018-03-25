@@ -1,9 +1,10 @@
 var path = require("path");
-var mongojs = require("mongojs");
-var databaseUrl = "photodb";
-var collections = ["inventory"];
-var db = mongojs(databaseUrl, collections);
-
+// var mongojs = require("mongojs");
+// var databaseUrl = "photodb";
+// var collections = ["inventory"];
+// var db = mongojs(databaseUrl, collections);
+var db = require("../models/photo.js");
+var mongoose = require("mongoose");
 module.exports = function(app) {
     app.get("/", function(req, res) {
         res.sendFile(path.join(__dirname, "../index.html"));
@@ -22,7 +23,7 @@ module.exports = function(app) {
     });
     app.get("/all", function(req, res) {
         // Query: In our database, go to the students collection, then "find" everything 
-        db.inventory.find({ "photoid": "auto1" }, function(err, found) {
+        db.find({}, function(err, found) {
             // Log any errors if the server encounters one
             if (err) {
                 console.log(err);
