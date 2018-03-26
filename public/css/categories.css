@@ -150,9 +150,7 @@
         width: 100%;
         background-color: black;
     }
-    #firstRow{ overflow-x: hidden;
-        
-    }
+    
 
     #featured {
         font-size: 5px;
@@ -163,8 +161,11 @@
         overflow-x: scroll;
         height: 568px;
         margin-top: 1%;
-        width: 400px;
-        background-color: ;
+        width: 500px;
+        
+    }
+    #firstRow{ 
+   overflow-x: hidden;
     }
 
     #photoContent {
@@ -183,7 +184,7 @@
     .f1_container {
         position: relative;
         margin: 10px;
-        width: 400px;
+        width: 500px;
         height: 229px;
         z-index: 1;
         float: left;
@@ -222,6 +223,7 @@
 
 
     .face.back {
+        width: 350px;
         display: block;
         -webkit-transform: rotateY(180deg);
         transform: rotateY(180deg);
@@ -230,7 +232,7 @@
         text-align: center;
         background-color: #aaa;
         position: relative;
-        left: 40px;
+        left: 105px;
     }
 
 
