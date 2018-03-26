@@ -188,7 +188,7 @@
         height: 229px;
         z-index: 1;
         float: left;
-        overflow-x: hidden;
+        overflow-y: hidden;
 
     }
     .f1_container {
