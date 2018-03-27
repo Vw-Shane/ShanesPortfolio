@@ -24,6 +24,11 @@
 </head>
 
 <body>
+    <div id="myModal" class="modal">
+  <span class="close">&times;</span>
+  <img class="modal-content" id="img01">
+  <div id="caption"></div>
+</div>
     <nav class="navbar navbar-expand-lg navbar-dark" id="navBBar">
         <a class="navbar-brand" href="/photo">SOPhoto</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -66,6 +71,7 @@
         </div>
     </nav>
     <div class="container-fluid" id="main">
+
         <div class="row" id="featured">
             <!-- empty col are for center text will change later -->
             <div class="col">
@@ -97,6 +103,7 @@
         </div>
         <!-- this container holds the photo grid for all the purchaseable images -->
         <div class="container-fluid" id="photoContainer">
+
             <!-- the row number id maybe changed -->
             <div class="row" id="firstRow">
                 <div class="col-md-3 col-sm-12">
@@ -104,10 +111,12 @@
                         <div class="shadow f1_card">
                             <div class="front face">
                                 <!-- class="d-block w-100" -->
-                                <img src="images/lambo.png" alt="bee">
+                                <img id="myImg" src="images/lambo.png" alt="lamborghini" style="height: 80%;">
                             </div>
                             <div class="back face center" id="image1">
                                 <br>
+                                <!-- The Modal -->
+
                                 <br>
                                 <div class="row">
                                     <div class="col">Print Size </div>
