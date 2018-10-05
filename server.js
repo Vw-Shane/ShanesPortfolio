@@ -6,6 +6,7 @@ var app = express();
 // var collections = ["inventory"];
 // var db = mongojs(databaseUrl, collections);
 var mongoose = require("mongoose");
+
 var db = require("./models/photo.js");
 const PORT = process.env.PORT || 3000;
 app.use(express.static(__dirname + "/public"));
@@ -20,16 +21,13 @@ app.use((req, res, next) => {
     res.header("Access-Control-Allow-Methods", "GET, POST, OPTIONS, PUT, DELETE");
     next();
 });
-mongoose.Promise = Promise;
-mongoose.connect("mongodb://localhost/photodb", {
-  useMongoClient: true
-});
+// mongoose.Promise = Promise;
+// mongoose.connect("mongodb://localhost/photodb", {
+//   useMongoClient: true
+// });
 //subject to change
 require("./routes/htmlRoutes")(app);
 // require("./routes/apiRoutes")(app);
-db.on("error", function(error) {
-  console.log("Database Error:", error);
-});
 
 
 

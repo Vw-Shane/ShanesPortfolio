@@ -21,6 +21,9 @@ module.exports = function(app) {
     app.get("/landing", function(req, res) {
         res.sendFile(path.join(__dirname, "../pages/landingPage.html"));
     });
+    app.get("/webcam", function(req, res) {
+        res.sendFile(path.join(__dirname, "../pages/webCam.html"));
+    });
     app.get("/all", function(req, res) {
         // Query: In our database, go to the students collection, then "find" everything 
         db.find({}, function(err, found) {
