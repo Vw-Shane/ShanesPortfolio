@@ -21,6 +21,11 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
+.glyphicon {
+	margin-left:48%;
+    font-size: 50px;
+}
+
 #carousel-example-generic{
 	padding-top: 5%;
 }
