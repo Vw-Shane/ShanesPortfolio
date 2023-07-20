@@ -34,7 +34,7 @@ nav {
 #projectHouse {
     width: 50%;
     float: right;
-    height: 800px;
+    /*height: 800px;*/
 }
 
 
@@ -42,7 +42,7 @@ nav {
 
 
     /*wrap around image area*/
-    height: 400px;
+    /*height: 400px;*/
     margin-bottom: 200px;
     width: 100%;
 }
