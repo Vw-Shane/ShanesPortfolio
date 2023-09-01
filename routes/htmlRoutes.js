@@ -12,7 +12,7 @@ module.exports = function(app) {
     app.get("/webdev", function(req, res) {
         res.sendFile(path.join(__dirname, "../index.html"));
     });
-    app.get("/photo", function(req, res) {
+    app.get("/#/photo", function(req, res) {
         res.sendFile(path.join(__dirname, /*"../pages/photo.html"*/"http://Vw-Shane/ShanesPortfolio/blob/master/pages/photo.html"));
 
         // "http://yourusername.github.io/yourproject/about," ensure that your JavaScript routing is set up to handle the 
@@ -41,7 +41,7 @@ module.exports = function(app) {
             }
         });
     });
-
+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
 
 
     app.get('*', function(req, res) {
