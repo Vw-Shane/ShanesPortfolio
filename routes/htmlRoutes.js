@@ -13,7 +13,11 @@ module.exports = function(app) {
         res.sendFile(path.join(__dirname, "../index.html"));
     });
     app.get("/photo", function(req, res) {
-        res.sendFile(path.join(__dirname, "../pages/photo.html"));
+        res.sendFile(path.join(__dirname, /*"../pages/photo.html"*/"http://Vw-Shane/ShanesPortfolio/blob/master/pages/photo.html"));
+
+        // "http://yourusername.github.io/yourproject/about," ensure that your JavaScript routing is set up to handle the 
+        //  http://Vw-Shane/ShanesPortfolio/blob/master/pages/photo.html
+        //"/about" path.
     });
     app.get("/cat", function(req, res) {
         res.sendFile(path.join(__dirname, "../pages/categories.html"));
